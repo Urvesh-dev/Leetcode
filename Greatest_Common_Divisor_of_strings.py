@@ -44,6 +44,8 @@ Constraints:
 str1 and str2 consist of English uppercase letters.
 """
 
+from math import gcd
+
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         if str1 + str2 != str2 + str1:
